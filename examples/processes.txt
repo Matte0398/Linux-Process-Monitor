@@ -1,0 +1,6 @@
+proc=sshd:alias=ssh:min=1:max=10
+proc=cron,crond:alias=cron_service:min=1:max=1
+proc=syslogd,rsyslogd,syslog-ng:alias=syslog:min=1:max=1
+proc=nginx:alias=webserver:min=1:max=8
+proc=mysqld,mariadbd:alias=database:user=mysql:min=1:max=1
+proc=redis-server:alias=cache:user=redis:min=1:max=1
