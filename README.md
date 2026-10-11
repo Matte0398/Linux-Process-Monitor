@@ -4,6 +4,30 @@ A Bash utility that checks whether processes are running on a Linux system and v
 
 Each execution captures a single snapshot of the processes using `ps`: the script does not monitor continuously or start or stop services.
 
+## Contents
+
+- [Repository structure](#repository-structure)
+- [Features](#features)
+- [Requirements](#requirements)
+- [Quick Start](#quick-start)
+- [Options](#options)
+- [Check Format](#check-format)
+- [Examples](#examples)
+- [Interpreting Results](#interpreting-results)
+- [Exit Codes and Automation](#exit-codes-and-automation)
+- [License](#license)
+
+## Repository structure
+
+```text
+Linux-Process-Monitor/
+|-- examples/
+|   `-- processes.txt
+|-- LICENSE
+|-- process_monitor.sh
+`-- README.md
+```
+
 ## Features
 
 - Configure checks from the command line, a file, or both sources.
